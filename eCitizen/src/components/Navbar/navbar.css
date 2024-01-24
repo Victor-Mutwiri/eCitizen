@@ -12,3 +12,21 @@ header{
     padding: 20px 14%;
     transition: all .50s ease;
 }
+.logo img{
+    width: 12%;
+    height: auto;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: #010101;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 22px;
+    transition: all 0.50s ease;
+ }
+ .navbar a:hover{
+    transform: translateY(7px);
+    color: orange;
+}
