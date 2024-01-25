@@ -1,3 +1,5 @@
+import './services.css'
+
 export default function Services(){
     return(
         <div className="passport">
@@ -10,6 +12,7 @@ export default function Services(){
             photographs that ar needed, and return it for <br />
             processing.
             </p>
+            <button className='btn'>Learn More</button>
         </div>
     )
 }
