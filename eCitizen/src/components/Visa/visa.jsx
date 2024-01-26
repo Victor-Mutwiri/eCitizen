@@ -1,17 +1,24 @@
+import './visa.css'
+
 export default function Visa(){
     return (
-        <div>
-            <section>
+        <div className='visa'>
+            <section className="others">
                 <h3>KENYA VISA APPLICATION</h3>
                 <li><a href="#">How do I Apply</a></li>
+                <hr />
                 <li><a href="#">Who requires a Visa</a></li>
+                <hr />
                 <li><a href="#">Types of Visa and Fees</a></li>
+                <hr />
                 <li><a href="#">Requirements</a></li>
+                <hr />
                 <li><a href="#">Photo requirements and guidelines</a></li>
+                <hr />
             </section>
-            <section>
-                <div className="how">
-                    <h2>Passport Application</h2>
+            <section className="how">
+                <div className="how-to">
+                    <h2>How do I Apply</h2>
                     <p>You need to:</p>
                     <ol>
                         <li>Click register on www.ecitizen.go.ke.</li>
@@ -27,7 +34,7 @@ export default function Visa(){
                     </ol>
                 </div>
                 <div className="disclaimer">
-                    <h2>Passport Application</h2>
+                    <h2>DISCLAIMER</h2>
                     <ol>
                         <li>Visa processing fee is non refundable.</li>
                         <li>Incomplete applications will be rejected.</li>
@@ -40,6 +47,7 @@ export default function Visa(){
                         account. Parents can apply for their children in the parents account.</li>
                     </ol>
                 </div>
+                <button className='btn'>Apply Now</button>
             </section>
         </div>
     )
