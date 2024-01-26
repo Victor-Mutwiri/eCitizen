@@ -1,4 +1,5 @@
 import './navbar.css'
+import logoImage from '../../assets/Logo.png'
 import {Link} from 'react-router-dom'
 
 
@@ -6,7 +7,7 @@ export default function Navbar(){
     return (
         <header>
             <Link to="/" className="logo">
-                <img src="../../assets/Logo.png" alt="Logo"/>
+                <img src={logoImage} alt="Logo"/>
             </Link>
             <ul className="navbar">
                 <li><Link to='/'>Home</Link></li>

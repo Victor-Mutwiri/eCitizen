@@ -1,9 +1,10 @@
 import './services.css'
+import passport from '../../assets/passport.png'
 
 export default function Services(){
     return(
         <div className="passport">
-            <img src="" alt="Passport" />
+            <img src={passport} alt="Passport" width={180}/>
             <h2>Passport Application</h2>
             <p>You can apply, renew or replace your <br />
             passport and pay for it online. You will have to <br />
