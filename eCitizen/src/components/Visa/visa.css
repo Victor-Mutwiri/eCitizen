@@ -9,13 +9,31 @@
 }
 .others li{
     list-style-type: none;
+    font-size: 15px;
 }
 .others li a{
     text-decoration: none;
+    color: #A2A5A7;
 }
 .others hr{
-    color: 1px solid rgba(149, 163, 166,0.8);
+    color: 1px rgba(149, 163, 166,0.8);
 }
+
 .how{
     text-align: left;
+}
+.how li{
+    font-size: 17px;
+    font-weight: 400;
+}
+.how h2{
+    font-size: 38px;
+    font-weight: 600;
+}
+.how button{
+    margin-top: 15px;
+}
+.disclaimer{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
