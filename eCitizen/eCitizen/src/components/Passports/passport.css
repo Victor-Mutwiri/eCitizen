@@ -1,0 +1,64 @@
+.application{
+    display: grid;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 4.5rem;
+}
+.application p{
+    font-size: 18px;
+    text-align: start;
+    justify-content: flex-start;
+}
+
+section{
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+section h3{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+section ol{
+    text-align: start;
+    margin-top: 15px;
+}
+ol li{
+    list-style: decimal;
+}
+
+.details{
+    display: grid;
+}
+.apply{
+    display: grid;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+.apply p{
+    border: 1px solid red;
+    background-color: #FCE6E9;
+    padding: 10px 20px;
+}
+.apply button{
+    width: 15%;
+    left: 50%;
+    right: 50%;
+}
+.bxs-error{
+    color: red;
+}
+
+.fees div{
+    right: 50%;
+}
+.table{
+    margin-top: 25px;
+    text-align: center;
+}

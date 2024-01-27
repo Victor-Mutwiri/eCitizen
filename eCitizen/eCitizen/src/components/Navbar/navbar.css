@@ -30,14 +30,3 @@ header{
     transform: translateY(7px);
     color: orange;
 }
-
-.bx-menu{
-    margin-left: 15px;
-    height: 30px;
-    width: 30px;
-    font-size: 20px;
-    border-radius: 50%;
-    z-index: 10001;
-    cursor: pointer;
-    display: none;
-}

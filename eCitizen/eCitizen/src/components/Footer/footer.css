@@ -1,0 +1,73 @@
+footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background: #4C4C51;
+    color: white;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36/10%);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    transition: all .50s ease;
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    background: #272829;
+    color: #fff;
+}
+
+.contact-box h4{
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+.contact-box li{
+    margin-bottom: 18px;
+}
+.contact-box li a{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.50s ease;
+    color: #fff;
+    text-decoration: none;
+}
+.contact-box li a:hover{
+    transform: translateX(-7px);
+    color: orange;
+    text-decoration: underline;
+}
+.contact-box h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.social{
+    display: flex;
+    margin-top: 1.8rem;
+}
+.social i{
+    height: 37px;
+    width: 37px;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 1.1rem;
+    color: #fff;
+    transition: all 0.50s ease;
+}
+.social i:hover{
+    background: white;
+    color: orange;
+    transform: scale(1.1);
+}

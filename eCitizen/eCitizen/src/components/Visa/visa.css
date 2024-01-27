@@ -15,10 +15,6 @@
     text-decoration: none;
     color: #A2A5A7;
 }
-.others li a:hover{
-    text-decoration: none;
-    color: orange;
-}
 .others hr{
     color: 1px rgba(149, 163, 166,0.8);
 }

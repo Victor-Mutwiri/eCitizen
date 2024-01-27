@@ -1,0 +1,18 @@
+{
+    "contact":[
+        {
+            "name":"Victor",
+            "mail": "victor@gmail.com",
+            "text": "hello my name is victor",
+            "reason":"complaint",
+            "id": 1
+        },
+        {
+            "name":"Peter",
+            "mail": "peter@gmail.com",
+            "text": "hello my name is Peter",
+            "reason":"inquiry",
+            "id": 2
+        }
+    ]
+}

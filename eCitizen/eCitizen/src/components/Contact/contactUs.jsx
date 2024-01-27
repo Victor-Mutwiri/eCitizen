@@ -57,10 +57,10 @@ export default function ContactUs(){
                 <button>Submit</button>
                 {/* {! isPending && <button>Submit</button>}
                 { isPending && <button disabled>Adding comment...</button>} */}
-                {/* <p>{name}</p>
+                <p>{name}</p>
                 <p>{mail}</p>
                 <p>{text}</p>
-                <p>{reason}</p> */}
+                <p>{reason}</p>
             </form>
         </div>
     )

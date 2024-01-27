@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom'
 
 
 export default function Navbar(){
-
     return (
         <header>
             <Link to="/" className="logo">
@@ -20,7 +19,6 @@ export default function Navbar(){
                 <li><Link to='/contact Us'>Contact Us</Link></li>
                 <li><Link to='/account'>Account</Link></li>
             </ul>
-            <div className="bx bx-menu" id="menu-icon"></div>
         </header>
     )
 }
