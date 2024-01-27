@@ -1,5 +1,7 @@
+import './news.css'
+
 export default function News(){
     return(
-        <div>News is here</div>
+        <div className="news">News is here</div>
     )
 }
