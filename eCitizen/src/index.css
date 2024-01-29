@@ -82,6 +82,19 @@ header {
     transform: translateX(0);
 }
 
+.home{
+  margin-top: 10px;
+  height: 55vh;
+  margin-bottom: 10px;
+}
+.home img{
+  width: 80%;
+}
+.home div{
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
 .visa {
     display: block;
 }
@@ -94,4 +107,35 @@ header {
     justify-content: center;
     align-items: center;
 }
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 380px;
+  margin-top: 5px;
+  background: #fff;
+}
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 7px;
+}
+.input{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 350px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+.forgot-password{
+  padding-left: 0px;
+  margin-top: 22px;
+  color: #797979;
+  font-size: 18px;
 }

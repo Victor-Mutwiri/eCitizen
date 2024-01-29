@@ -1,10 +1,16 @@
 import './navbar.css'
 import logoImage from '../../assets/Logo.png'
-import {Link} from 'react-router-dom'
-import {useState} from 'react'
+import {Link, useLocation} from 'react-router-dom'
+import {useState, useEffect} from 'react'
 
 export default function Navbar(){
     const [menuOpen, setMenuOpen] = useState (false)
+    const location = useLocation();
+
+    useEffect(() => {
+        // Close the navbar when the route changes
+        setMenuOpen(false);
+    }, [location]);
     return (
         <header>
             <Link to="/" className="logo">
